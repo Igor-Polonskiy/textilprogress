@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.header_content{
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_item{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.nav_item a{
+    color: blue;
+}
+.nav_item:hover a{
+    color: darkblue;
+}
