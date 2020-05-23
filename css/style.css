@@ -1,6 +1,15 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: snow;
+}
+header {
+    background-image: url(../img/shelf.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.white_bg{
+    background-color: rgba(255, 255, 255, 0.85);
 }
 .container{
     max-width: 1200px;
@@ -10,6 +19,9 @@ body{
 }
 .flex{
     display: flex;
+}
+.logo img{
+    height: 75px;
 }
 .header_content{
     height: 80px;
@@ -21,9 +33,12 @@ body{
     margin-left: 40px;
     font-size: 20px;
 }
-.nav_item a{
+.nav_item.active a{
     color: blue;
 }
+.nav_item a{
+    color: steelblue;
+}
 .nav_item:hover a{
-    color: darkblue;
+    color: blue;
 }
